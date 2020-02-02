@@ -23,7 +23,10 @@ int main()
 
 	int ans=0,cnt[N];
 	for(int j=0;j<m;++j){
-		memset(cnt,0,sizeof(cnt));
+
+		for(int i=0;i<n;++i)	//用memset會TLE while n=1,m=200000
+			cnt[i]=0;
+
 		for(int i=0;i<n;++i){
 			if( (arr[i][j]%m) == ((j+1)%m) ){
 				int pos=( arr[i][j]-(j+1) )/m;
