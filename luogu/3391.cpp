@@ -39,7 +39,8 @@ void push(node *now)
 {
 	if(now==nullptr)
 		return;
-	if(!now->re)	return;
+	if(!now->re)	
+		return;
 	
 	swap(now->l,now->r);
 	if(now->l)	now->l->re^=true;
