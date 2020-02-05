@@ -10,7 +10,7 @@ struct node{
 
 	node *l,*r;
 
-	node()=default;
+	//node()=default;
 	node(int value){
 		val=value;
 		pri=rand();
