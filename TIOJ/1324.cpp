@@ -67,6 +67,7 @@ ll dfs(ll now,ll MOD)
     if(GCD==1)
         return power(X[now],nextPOWER,MOD);
 
+	ll nextMOD2=nextMOD;
     nextMOD=MOD;
     for(int i=2;i*i<=MOD;++i){
         while(nextMOD%i==0 && X[now]%i==0){
