@@ -60,7 +60,7 @@ int main()
 	else
 		ans=10;
 
-	cout << ans << endl;
+	cout << ans << '\n';
 
 	return 0;
 }
