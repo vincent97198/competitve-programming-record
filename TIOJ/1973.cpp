@@ -32,7 +32,7 @@ int main()
 	else{
 		dp[k][k]=1;
 		for(int i=k;i<=n;++i){
-			for(ll j=k;j<=i;++j){
+			for(int j=k;j<=i;++j){
 				if(i==k && j==k)
 					continue;
 				else
