@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define N 100000
 
 using namespace std;
 
