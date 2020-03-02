@@ -31,6 +31,6 @@ int main()
             ans+=tmp;
         }
     }
-    cout << ans << endl;
+    cout << ans << '\n';
     return 0;
 }
