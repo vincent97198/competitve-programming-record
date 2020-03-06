@@ -8,9 +8,8 @@ struct item{
   ll s,e,c;
 };
 
-
-ll dp[32780],BIT[32780];
 item arr[N];
+ll dp[32780],BIT[32780];
 
 inline int lowbit(int x)
 {
