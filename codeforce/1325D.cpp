@@ -28,3 +28,9 @@ int main()
 
     return 0;
 }
+
+/*
+   a+b=a^b+2*(a&b);
+   a&b=(sum-u)/2;
+*/
+
