@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 struct pos{
   int x,y;
 };
