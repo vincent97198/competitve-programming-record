@@ -33,7 +33,7 @@ void init()
 
 void solve()
 {
-    dp[0][0]=item{1,1},dp[0][1]=item{0,0};
+    dp[0][0]=item{1,1},dp[0][1]=item{0,0};	//dp[i][j]	i->position,j->last number is from A(0) or B(1),dp[][]->the range of number of A
     for ( int i = 0; i < 2 * n - 1; ++i ) {
         for ( int j = 0; j < 2; ++j ) {
             if ( j == 0 && A[i + 1] >= A[i] )
