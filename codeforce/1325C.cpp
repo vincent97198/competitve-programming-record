@@ -37,5 +37,6 @@ int main()
 			cout << cnt++ << endl;
 		else
 			cout << E[i].id << endl;
+
 	return 0;
 }
