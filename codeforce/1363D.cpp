@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define N 1005
+#define N 1003
 
 using namespace std;
 
