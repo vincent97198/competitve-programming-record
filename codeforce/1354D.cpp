@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #pragma GCC optimize("Ofast")
-#define N 1000002
+#define N 1000005
 
 using namespace std;
 
